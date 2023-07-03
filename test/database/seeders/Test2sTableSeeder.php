@@ -14,17 +14,17 @@ class Test2sTableSeeder extends Seeder
     public function run(): void
     {
         //
-        DB::table('tests')->insert([
+        DB::table('test2s')->insert([
             'user_age' => 1200,
             'created_at' => now(),
             'updated_at' => now()
         ]);
-        DB::table('tests')->insert([
+        DB::table('test2s')->insert([
             'user_age' => 500,
             'created_at' => now(),
             'updated_at' => now()
         ]);
-        DB::table('tests')->insert([
+        DB::table('test2s')->insert([
             'user_age' => 7,
             'created_at' => now(),
             'updated_at' => now()
